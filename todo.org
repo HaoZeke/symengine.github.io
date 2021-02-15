@@ -47,6 +47,8 @@ Anything [[https://pypi.org/project/sphinx-comments/][sphinx-comments]] supports
 - [ ] Hessian calculations and structure optimization
 *** TODO Partial Differential Equation
 - [ ] Heat equation or some such
+** TODO Theory
+Maybe some links or better, a review of the basic theory
 ** TODO Wiki Duplication Candidates
 Since migration is a bad idea, the following might be useful to have mirrored:
 - [[https://github.com/symengine/symengine/wiki/Projects-using-SymEngine][list of projects which use symengine]]
