@@ -1,7 +1,8 @@
 * TODO Project Local Tasks
 ** TODO Make rake task to catch out of sync binder configurations
 As per the design document, this task is to be named ~prePub~
-** TODO Build and prepare notebooks branch
+** DONE Build and prepare notebooks branch
+CLOSED: [2021-02-15 Mon 03:34]
 This is probably best handled by a ~rake~ task, and meant to be a precursor to running Colab notebooks
 ** TODO Setup instructions for Colab
 ** TODO Consider adding hoverrefs for the Colab button
