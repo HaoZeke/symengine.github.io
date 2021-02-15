@@ -1,0 +1,72 @@
+* TODO Project Local Tasks
+** TODO Make rake task to catch out of sync binder configurations
+As per the design document, this task is to be named ~prePub~
+** TODO Build and prepare notebooks branch
+This is probably best handled by a ~rake~ task, and meant to be a precursor to running Colab notebooks
+** TODO Setup instructions for Colab
+** TODO Consider adding hoverrefs for the Colab button
+With [[https://sphinx-hoverxref.readthedocs.io/en/latest/][this]]
+** TODO Basic API Exploration
+All of these need to have the same content. Can be kanged from tests.
+*** TODO C++
+- [ ] Expressions
+- [ ] Matrices
+*** TODO Python
+- [ ] Expressions
+- [ ] Matrices
+*** TODO Julia
+- [ ] Expressions
+- [ ] Matrices
+*** TODO R
+- [ ] Expressions
+- [ ] Matrices
+** TODO Contributors Guide
+** TODO Broken Search
+Probably a version thing
+* TODO Discussion/Collaborative Tasks
+** TODO Analytics
+- We could use:
+  - [[https://clicky.com/user/][Clicky]]
+  - [[https://pypi.org/project/sphinxcontrib-googleanalytics/][Google Analytics]]
+  - Goat Analytics
+Anything really, or even nothing.
+** TODO Comments/Annotations
+Anything [[https://pypi.org/project/sphinx-comments/][sphinx-comments]] supports is an option, or maybe even [[https://www.remarkbox.com/remarkbox-is-now-pay-what-you-can.html][remarkbox]]
+** TODO Benchmarks
+- [[https://github.com/certik/scipy-2016-symengine-talk/blob/master/talk.pdf][Scipy presentation PDF]]
+  + [[https://github.com/certik/scipy-2016-symengine-talk/blob/master/benchmarks/benchmarks.ipynb][ipynb source]]
+- https://github.com/airspeed-velocity/asv
+- Examples
+  + https://scipy.github.io/devdocs/dev/contributor/benchmarking.html
+  + https://www.asmeurer.com/sympy_benchmarks/
+  + https://speed.pypy.org/
+** TODO Case Studies
+*** TODO Code Generation
+- [ ] Chemical Kinetics [[https://www.sympy.org/scipy-2017-codegen-tutorial/notebooks/32-chemical-kinetics-symbolic-construction.html][example from sympy]]
+*** TODO Optimization
+- [ ] Hessian calculations and structure optimization
+*** TODO Partial Differential Equation
+- [ ] Heat equation or some such
+** TODO Wiki Duplication Candidates
+Since migration is a bad idea, the following might be useful to have mirrored:
+- [[https://github.com/symengine/symengine/wiki/Projects-using-SymEngine][list of projects which use symengine]]
+** TODO Production Usage
+*** TODO Build Systems
+Perhaps migrating some of the wiki content?
+** TODO Logo
+** TODO Pending Approval
+*** TODO Design Document
+*** TODO Theme
+Switched away from the entire ~jupyter-book~ cabal
+*** TODO Python Bindings
+[[https://github.com/symengine/symengine.py/pull/335][Here]].
+*** TODO Julia Bindings
+[[https://github.com/symengine/SymEngine.jl/pull/226][Here]].
+* TODO Global Tasks
+** TODO Update C++ documentation
+This involves merging relevant sections of ~api-docs~
+** TODO Depreciate api-docs repository
+This is not in keeping with the design document
+* WAIT Stretch Goals
+** Generate inventories for non-Sphinx projects
+[[https://sphobjinv.readthedocs.io/en/latest/][sphobjinv]] can build inventories for consumption, and is used in [[https://github.com/svenevs/exhale][exhale]]
